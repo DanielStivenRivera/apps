@@ -3,93 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DroidDeck · Política de privacidad / Privacy Policy</title>
-  <meta name="description" content="Política de privacidad de DroidDeck, el teclado, mouse y control multimedia Bluetooth para Android.">
-  <style>
-    :root {
-      --bg: #f5f8fd;
-      --surface: #ffffff;
-      --text: #191c20;
-      --muted: #43474e;
-      --primary: #1f5fae;
-      --primary-container: #d6e3ff;
-      --on-primary-container: #001b3e;
-      --border: #dce5f2;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0d1520;
-        --surface: #172231;
-        --text: #e1e2e8;
-        --muted: #c3c9d6;
-        --primary: #a9c7ff;
-        --primary-container: #00468c;
-        --on-primary-container: #d6e3ff;
-        --border: #253347;
-      }
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    }
-    header {
-      background: var(--primary-container);
-      color: var(--on-primary-container);
-      padding: 40px 16px 32px;
-    }
-    .wrap { max-width: 760px; margin: 0 auto; }
-    header h1 { margin: 0 0 4px; font-size: 1.9rem; }
-    header p { margin: 0; opacity: .85; }
-    .lang {
-      display: flex;
-      gap: 8px;
-      margin-top: 20px;
-    }
-    .lang button {
-      font: inherit;
-      font-size: .9rem;
-      padding: 6px 16px;
-      border-radius: 999px;
-      border: 1px solid currentColor;
-      background: transparent;
-      color: inherit;
-      cursor: pointer;
-    }
-    .lang button[aria-pressed="true"] {
-      background: var(--primary);
-      border-color: var(--primary);
-      color: var(--bg);
-    }
-    main { padding: 24px 16px 48px; }
-    article {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 8px 24px 24px;
-    }
-    h2 { color: var(--primary); font-size: 1.15rem; margin: 28px 0 8px; }
-    .summary {
-      border-left: 4px solid var(--primary);
-      padding: 4px 0 4px 16px;
-      margin: 24px 0 8px;
-    }
-    .date { color: var(--muted); font-size: .9rem; }
-    ul { padding-left: 1.25rem; }
-    li { margin: 4px 0; }
-    a { color: var(--primary); }
-    footer { color: var(--muted); font-size: .85rem; text-align: center; padding: 0 16px 32px; }
-    [hidden] { display: none !important; }
-  </style>
+  <title>DSR Dev · Apps</title>
+  <meta name="description" content="Apps de DSR Dev y sus políticas de privacidad.">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header>
     <div class="wrap">
-      <h1>DroidDeck</h1>
-      <p data-lang="es">Política de privacidad</p>
-      <p data-lang="en" hidden>Privacy Policy</p>
+      <h1>DSR Dev</h1>
+      <p data-lang="es">Apps y políticas de privacidad</p>
+      <p data-lang="en" hidden>Apps and privacy policies</p>
       <div class="lang" role="group" aria-label="Idioma / Language">
         <button type="button" data-set-lang="es" aria-pressed="true">Español</button>
         <button type="button" data-set-lang="en" aria-pressed="false">English</button>
@@ -98,159 +21,24 @@
   </header>
 
   <main class="wrap">
-    <!-- ===================== ESPAÑOL ===================== -->
-    <article data-lang="es" lang="es">
-      <p class="summary"><strong>En resumen:</strong> DroidDeck no recopila, no vende y no comparte datos personales.
-        La app no tiene permiso de acceso a Internet, por lo que no puede enviar información a ningún servidor.</p>
-      <p class="date">Vigente desde el 3 de octubre de 2026.</p>
-
-      <h2>Qué hace la app</h2>
-      <p>DroidDeck convierte tu teléfono Android en un teclado, mouse y control multimedia Bluetooth para el
-        computador que elijas. Todo funciona directamente entre tu teléfono y ese computador.</p>
-
-      <h2>Información que maneja la app</h2>
-      <ul>
-        <li><strong>Lo que escribes y los gestos que haces</strong> (movimientos del cursor, clics, teclas, texto y
-          controles de volumen o reproducción): se envían por Bluetooth únicamente al computador al que te
-          conectaste. No se guardan ni se envían a nadie más. El texto del cuadro “Escribe aquí” solo permanece en
-          la memoria del teléfono mientras la app está abierta.</li>
-        <li><strong>Dispositivos Bluetooth</strong>: la app muestra el nombre y la dirección de los equipos
-          emparejados y de los equipos cercanos para que puedas conectarte. Lo único que se guarda es la dirección
-          del último equipo al que te conectaste, para reconectarte automáticamente. Este dato se queda en tu
-          teléfono, no se incluye en copias de seguridad y se borra al desinstalar la app o borrar sus datos.</li>
-        <li><strong>Preferencias</strong>: ajustes como la sensibilidad del touchpad o la distribución de teclado
-          solo existen mientras usas la app.</li>
-      </ul>
-
-      <h2>Permisos</h2>
-      <ul>
-        <li><strong>Dispositivos cercanos</strong> (Bluetooth: conectar, buscar y hacerse visible): necesario para
-          encontrar tu computador, emparejarte y enviarle las acciones del teclado y el mouse. La búsqueda está
-          declarada para no usarse nunca para obtener tu ubicación.</li>
-        <li><strong>Ubicación</strong> (solo Android 11 o anterior): esas versiones de Android exigen este permiso
-          para mostrar resultados de búsqueda Bluetooth. DroidDeck no obtiene, usa ni guarda tu ubicación.</li>
-      </ul>
-
-      <h2>Lo que la app no hace</h2>
-      <ul>
-        <li>No accede a Internet.</li>
-        <li>No incluye publicidad, analíticas, rastreadores ni servicios de terceros.</li>
-        <li>No pide crear una cuenta ni datos de contacto.</li>
-        <li>No vende ni comparte información con terceros.</li>
-      </ul>
-
-      <h2>Seguridad</h2>
-      <p>La conexión usa el emparejamiento estándar de Bluetooth, que exige confirmar un código en ambos
-        dispositivos y cifra el enlace. Solo los computadores que tú emparejes pueden recibir lo que envía la app.</p>
-
-      <h2>Niños</h2>
-      <p>DroidDeck no está dirigida específicamente a menores y no recopila información personal de ningún usuario,
-        incluidos los niños.</p>
-
-      <h2>Tus opciones</h2>
-      <ul>
-        <li>Puedes retirar los permisos en cualquier momento desde los ajustes de Android.</li>
-        <li>Puedes desvincular equipos desde los ajustes de Bluetooth del teléfono o del computador.</li>
-        <li>Borrar los datos de la app o desinstalarla elimina el último equipo guardado.</li>
-      </ul>
-
-      <h2>Cambios en esta política</h2>
-      <p>Si esta política cambia, publicaremos la nueva versión en esta página con su fecha de vigencia.</p>
-
-      <h2>Contacto</h2>
-      <p>Si tienes preguntas sobre esta política, escribe a DSR Dev:
-        <a href="mailto:danestiv0610@gmail.com">danestiv0610@gmail.com</a>.</p>
-    </article>
-
-    <!-- ===================== ENGLISH ===================== -->
-    <article data-lang="en" lang="en" hidden>
-      <p class="summary"><strong>In short:</strong> DroidDeck does not collect, sell or share personal data.
-        The app has no permission to access the Internet, so it cannot send information to any server.</p>
-      <p class="date">Effective October 3, 2026.</p>
-
-      <h2>What the app does</h2>
-      <p>DroidDeck turns your Android phone into a Bluetooth keyboard, mouse and media remote for the computer you
-        choose. Everything works directly between your phone and that computer.</p>
-
-      <h2>Information the app handles</h2>
-      <ul>
-        <li><strong>What you type and the gestures you make</strong> (pointer movement, clicks, keys, text and volume or
-          playback controls): sent over Bluetooth only to the computer you connected to. It is not stored or sent to
-          anyone else. Text in the “Type here” box stays only in the phone’s memory while the app is open.</li>
-        <li><strong>Bluetooth devices</strong>: the app shows the name and address of paired and nearby devices so you
-          can connect. The only thing saved is the address of the last computer you connected to, so the app can
-          reconnect automatically. It stays on your phone, is excluded from backups and is deleted when you uninstall
-          the app or clear its data.</li>
-        <li><strong>Preferences</strong>: settings such as touchpad sensitivity or keyboard layout only exist while you
-          use the app.</li>
-      </ul>
-
-      <h2>Permissions</h2>
-      <ul>
-        <li><strong>Nearby devices</strong> (Bluetooth connect, scan and advertise): needed to find your computer, pair
-          with it and send it keyboard and mouse input. Scanning is declared as never used to derive your location.</li>
-        <li><strong>Location</strong> (Android 11 and lower only): those Android versions require it to show Bluetooth
-          scan results. DroidDeck does not obtain, use or store your location.</li>
-      </ul>
-
-      <h2>What the app does not do</h2>
-      <ul>
-        <li>It does not access the Internet.</li>
-        <li>It contains no ads, analytics, trackers or third-party services.</li>
-        <li>It does not require an account or any contact details.</li>
-        <li>It does not sell or share information with third parties.</li>
-      </ul>
-
-      <h2>Security</h2>
-      <p>The connection uses standard Bluetooth pairing, which requires confirming a code on both devices and encrypts
-        the link. Only computers you pair with can receive what the app sends.</p>
-
-      <h2>Children</h2>
-      <p>DroidDeck is not specifically directed at children and does not collect personal information from any user,
-        including children.</p>
-
-      <h2>Your choices</h2>
-      <ul>
-        <li>You can revoke permissions at any time in Android settings.</li>
-        <li>You can unpair computers from the Bluetooth settings on your phone or computer.</li>
-        <li>Clearing the app’s data or uninstalling it removes the saved last computer.</li>
-      </ul>
-
-      <h2>Changes to this policy</h2>
-      <p>If this policy changes, we will publish the new version on this page with its effective date.</p>
-
-      <h2>Contact</h2>
-      <p>If you have questions about this policy, contact DSR Dev at
-        <a href="mailto:danestiv0610@gmail.com">danestiv0610@gmail.com</a>.</p>
-    </article>
+    <div class="apps">
+      <section class="app-card">
+        <div class="app-icon" aria-hidden="true">D</div>
+        <div>
+          <h2>DroidDeck</h2>
+          <p data-lang="es">Teclado, mouse y control multimedia Bluetooth para Android.</p>
+          <p data-lang="en" hidden>Bluetooth keyboard, mouse and media remote for Android.</p>
+          <div class="links">
+            <a href="droid-deck/privacy/" data-lang="es">Política de privacidad</a>
+            <a href="droid-deck/privacy/" data-lang="en" hidden>Privacy Policy</a>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer>© 2026 DSR Dev · DroidDeck</footer>
+  <footer>© 2026 DSR Dev</footer>
 
-  <script>
-    (function () {
-      function setLang(lang) {
-        document.documentElement.lang = lang;
-        document.querySelectorAll('[data-lang]').forEach(function (el) {
-          el.hidden = el.getAttribute('data-lang') !== lang;
-        });
-        document.querySelectorAll('[data-set-lang]').forEach(function (btn) {
-          btn.setAttribute('aria-pressed', String(btn.getAttribute('data-set-lang') === lang));
-        });
-      }
-      document.querySelectorAll('[data-set-lang]').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var lang = btn.getAttribute('data-set-lang');
-          setLang(lang);
-          history.replaceState(null, '', '#' + lang);
-        });
-      });
-      var fromHash = location.hash.slice(1);
-      var initial = fromHash === 'en' || fromHash === 'es'
-        ? fromHash
-        : ((navigator.language || 'es').toLowerCase().indexOf('es') === 0 ? 'es' : 'en');
-      setLang(initial);
-    })();
-  </script>
+  <script src="assets/lang.js"></script>
 </body>
 </html>
